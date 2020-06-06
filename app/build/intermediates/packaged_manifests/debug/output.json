@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "PACKAGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "com.airplay",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [
+        {
+          "key": "packageId",
+          "value": "com.airplay"
+        },
+        {
+          "key": "split",
+          "value": ""
+        },
+        {
+          "key": "minSdkVersion",
+          "value": "14"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

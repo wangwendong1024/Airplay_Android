@@ -1,0 +1,56 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.airplay"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:7:5-9:41
+8        android:minSdkVersion="14"
+8-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:8:9-35
+9        android:targetSdkVersion="29" />
+9-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:10:5-67
+11-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:10:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:11:5-76
+12-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:11:22-73
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+13-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:12:5-86
+13-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:12:22-83
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:13:5-79
+14-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:13:22-76
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:15:5-75
+15-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:15:22-72
+16
+17    <application
+17-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:17:5-28:19
+18        android:allowBackup="true"
+18-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:18:9-35
+19        android:debuggable="true"
+20        android:icon="@drawable/ic_launcher"
+20-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:19:9-45
+21        android:label="@string/app_name"
+21-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:20:9-41
+22        android:testOnly="true" >
+23        <activity android:name="com.beatofthedrum.alacdecoder.airplay.ui.AirplayActivity" >
+23-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:22:9-27:20
+23-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:22:19-90
+24            <intent-filter>
+24-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:23:13-26:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:24:17-69
+25-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:24:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:25:17-77
+27-->/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/src/main/AndroidManifest.xml:25:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>

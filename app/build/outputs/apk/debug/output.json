@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.airplay",
+  "variantName": "processDebugResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [
+        {
+          "key": "packageId",
+          "value": "com.airplay"
+        },
+        {
+          "key": "split",
+          "value": ""
+        },
+        {
+          "key": "minSdkVersion",
+          "value": "14"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "AndroidAirPlay_v1.0_20200512220832.apk"
+    }
+  ]
+}
