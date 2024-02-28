@@ -1,4 +1,4 @@
-#Tue May 12 22:08:33 CST 2020
-base.0=/Users/wangwendong/Downloads/AndroidAirPlayReceiver-master/Airplay_Main/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
+#Wed Feb 28 22:20:39 CST 2024
+base.0=/Users/mac/Documents/airplay_android/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
+path.0=classes.dex

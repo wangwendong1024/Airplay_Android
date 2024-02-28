@@ -6,7 +6,7 @@ buildscript {
         maven {url 'https://dl.google.com/dl/android/maven2'}
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.0-alpha04'
+        classpath 'com.android.tools.build:gradle:7.1.3'
     }
 }
 

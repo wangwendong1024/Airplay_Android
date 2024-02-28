@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Airplay</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Welcome Wifi AirPlay</string>
     <string name="action_settings">Settings</string>
 
 </resources>
