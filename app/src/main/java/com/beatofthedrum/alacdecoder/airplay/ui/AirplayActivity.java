@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
+import com.airplay.R;
+
 import javax.crypto.Cipher;
 
 import nz.co.iswe.android.airplay.AirPlayServer;
@@ -16,6 +18,7 @@ public class AirplayActivity extends Activity{
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
         String transformation = "RSA/None/OAEPWithSHA1AndMGF1Padding";
         try {
             Cipher rsaPkCS1OaepCipher = Cipher
