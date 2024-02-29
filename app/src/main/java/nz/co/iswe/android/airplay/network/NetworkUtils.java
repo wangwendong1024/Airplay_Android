@@ -1,5 +1,7 @@
 package nz.co.iswe.android.airplay.network;
 
+import android.os.Build;
+
 import com.beatofthedrum.alacdecoder.airplay.ui.SystemUtil;
 
 import java.net.InetAddress;
@@ -113,16 +115,16 @@ public class NetworkUtils {
 
 	public String getHostUtils() {
 		String hostName = "Android";
-		String phonefac ="MyPhone";
-        try {
-        	hostName = InetAddress.getLocalHost().getHostName().split("\\.")[0];
+		String phonefac = "MyPhone";
+		try {
+			hostName = InetAddress.getLocalHost().getHostName().split("\\.")[0];
 
-		}
-		catch (final Throwable e) {
+		} catch (final Throwable e) {
 			//do nothing
 		}
-		phonefac= SystemUtil.getDeviceBrand();
-		hostName = phonefac +" AirPlay "+hostName;
+		phonefac = SystemUtil.getDeviceBrand();
+		String devceModel = Build.MODEL;
+		hostName = phonefac + " " + devceModel + " AirPlay ";
 		return hostName;
 	}
 
